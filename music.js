@@ -1,4 +1,3 @@
-// console.log("hello")
 
 var music=document.querySelector("audio");
 var img=document.querySelector("img");
@@ -61,7 +60,7 @@ let songs =[{
     artist: "Amrinder Gill",
 },
 ];
-
+ 
 
 let loadsong =(songs) =>{
     title.textContent=songs.title;
