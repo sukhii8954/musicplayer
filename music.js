@@ -71,7 +71,7 @@ let loadsong =(songs) =>{
 
 
 };
-
+ 
 songindex=0;
 let nextsong=()=>{
     songindex= (songindex +1) % songs.length;
